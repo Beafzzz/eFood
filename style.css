@@ -419,3 +419,140 @@ header button{
   border-bottom-left-radius: 39px;
   box-shadow: 0px 29px 53px rgba(255, 104, 56, 0.19);
 }
+
+
+.download-app{
+  display: flex;
+  margin-top: 211px;
+}
+
+.download-app .text-box{
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.download-app .text-box>.head-text{
+  font-size: 46px;
+  font-weight: 500;
+  color: #363853;
+}
+
+.download-app .text-box>.head-text>span{
+  font-weight: 500;
+  color: #FF7A50;
+}
+
+.download-app .text-box>.main-text{
+  width: 687px;
+  font-size: 26px;
+  color: #363853;
+}
+
+.reviews{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews .head-text{
+  font-size: 46px;
+  color: #363853;
+  font-weight: 500;
+}
+
+.reviews .head-text>span{
+  color: #FF7A50;
+  font-weight: 500;
+}
+
+.reviews-row{
+  display: flex;
+  gap: 87px;
+}
+
+.reviews-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-column .comment{
+  width: 732px;
+  line-height: 58px;
+  letter-spacing: 0.65px;
+  font-size: 26px;
+  color: #363853;
+  margin-left: 36px;
+}
+
+.reviews-column .apost1{
+  position: relative;
+  top: 105px;
+  right: 15px;
+  font-family: "Nunito", sans-serif;
+  font-size: 102px;
+  color: #DDDDDD;
+}
+
+.reviews-column .apost2{
+  position: relative;
+  transform: scaleX(-1);
+  display: flex;
+  bottom: 40px;
+  left: 760px;
+  width: 80px;
+  font-family: "Nunito", sans-serif;
+  font-size: 102px;
+  color: #DDDDDD;
+  justify-content: flex-end; 
+}
+
+.reviews-column .author{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.reviews-column .author>.slider-item :first-child{
+  color: #FF7A50;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.reviews-column .author>.slider-item{
+  color: #AAAAAA;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reviews-column .author>.slider-button{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.subscribe{
+  background-color: #FF7A50;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.subscribe .head-text{
+  font-size: 51px;
+  font-weight: 500;
+  color: white;
+}
+
+.subscribe .main-text{
+  font-size: 21px;
+  color: white;
+}
+
+.subscribe div{
+  width: 1072px;
+  height: 100px;
+  border-radius: 90px;
+}
