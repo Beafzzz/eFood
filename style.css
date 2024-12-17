@@ -317,9 +317,105 @@ header button{
   width: calc(100% - 300px);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 55px;
+}
+
+.top-rest .head-text{
+  font-size: 46px;
+  font-weight: 500;
+  color: #363853;
+  margin-bottom: 13px;
+}
+
+.top-rest .head-text>span{
+  color: #FF7A50;
+}
+
+.food-cards{
+  display: flex;
+  gap: 55px;
 }
 
 .food-card{
   width: 461px;
   height: 533px;
+  border-top-left-radius: 68px;
+  border-bottom-right-radius: 68px;
+  border-top-right-radius: 25px;
+  background-color: white;
+}
+
+.food-card .pizza-1{
+  width: 462px;
+  height: 382px;
+  background-image: url("assets/img/pizza-1.png");
+}
+
+.food-card .pizza-2{
+  width: 462px;
+  height: 382px;
+  background-image: url("assets/img/pizza-2.png");
+}
+
+.food-card .pizza-3{
+  width: 462px;
+  height: 382px;
+  background-image: url("assets/img/pizza-3.png");
+}
+
+.food-card .burger-1{
+  width: 462px;
+  height: 382px;
+  background-image: url("assets/img/burger-1.png");
+}
+
+.food-card .burger-2{
+  width: 462px;
+  height: 382px;
+  background-image: url("assets/img/burger-2.png");
+}
+
+.food-card .burger-3{
+  width: 462px;
+  height: 382px;
+  background-image: url("assets/img/burger-3.png");
+}
+
+.food-card .name-card{
+  font-size: 31px;
+  color: #363853;
+  margin-left: 26px;
+  margin-top: 28px;
+}
+
+.food-card .time-button{
+  display: flex;
+  gap: 39px;
+  margin-left: 26px;
+}
+
+.food-card .time-button>p{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 17px; 
+}
+
+.food-card .time-button>p>span{
+  font-size: 23px;
+  color: #363853;
+  font-weight: 100;
+}
+
+.food-card .time-button>button{
+  width: 101px;
+  height: 42px;
+  background-color: #FF7A50;
+  border: none;
+  cursor: pointer;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  box-shadow: 0px 29px 53px rgba(255, 104, 56, 0.19);
 }
