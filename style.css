@@ -453,6 +453,7 @@ header button{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 213px;
 }
 
 .reviews .head-text{
@@ -535,9 +536,16 @@ header button{
 }
 
 .subscribe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #FF7A50;
   border-radius: 25px;
-  width: 100%;
+  width: 76%;
+  margin-top: 158px;
+  padding-top: 75px;
+  padding-bottom: 72px;
 }
 
 .subscribe .head-text{
@@ -549,10 +557,112 @@ header button{
 .subscribe .main-text{
   font-size: 21px;
   color: white;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
-.subscribe div{
-  width: 1072px;
+.subscribe .input-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
   height: 100px;
   border-radius: 90px;
+  background-color: white;
+}
+
+.subscribe > .input-box > input{
+  border: none;
+  height: 40px;
+  width: 60%;
+  font-size: 23px;
+}
+
+.subscribe > .input-box > button{
+  border: none;
+  border-radius: 89px;
+  background-color: #FF7A50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 244px;
+  gap: 10px;
+  font-size: 26px;
+  color: white;
+}
+
+.subscribe > .input-box > input::placeholder{
+  font-size: 23px;
+}
+
+footer{
+  width: 100%;
+  padding-top: 156px;
+}
+
+.top-footer{
+  display: flex;
+  gap: 126.5px;
+  padding-left: 195.5px;
+  padding-right: 168px;
+  padding-bottom: 32px;
+  border-bottom: solid 1px #969696;
+}
+
+footer button{
+  border: none;
+  border-radius: 50%;
+  padding: 11px 14px;
+  background-color: #EEEEEF;
+}
+
+.top-footer > .mini-info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.socials-buttons{
+  display: flex;
+  gap: 17px;
+}
+
+.about-site-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  padding-top: 18px;
+}
+
+.about-site-buttons p{
+  font-size: 23px;
+  letter-spacing: 0.1px;
+  color: #37383D;
+}
+
+.footer-head-text{
+  font-weight: 500;
+}
+
+.mini-info p{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-family: 'DM Sans', serif;
+  font-size: 20px;
+}
+
+.bottom-footer{
+  display: flex;
+  align-items: center;
+  gap: 848px;
+  padding-top: 33px;
+  padding-bottom: 46px;
+  padding-left: 188px;
+  padding-right: 168px;
+}
+
+.bottom-footer p{
+  color: #646464;
 }
