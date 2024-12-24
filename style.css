@@ -21,7 +21,9 @@ header{
   margin-top: 54px;
   display: flex;
   align-items: center;
-  width: calc(100% - 300px);
+  width: 100%;
+  gap: 10%;
+  justify-content: center;
 }
 
 header a{
@@ -33,7 +35,6 @@ header .pick-text{
 }
 
 header .urls{
-  margin-left: 372px;
   display: flex;
   align-items: center;
   gap: 79px;
@@ -57,16 +58,17 @@ header button{
 }
 
 .hello-screen{
-  width: calc(100% - 300px);
-  height: 908px;
+  height: fit-content;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-top: 140px;
 }
 
 .hello-screen-column{
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .hello-screen .big-text{
@@ -121,7 +123,7 @@ header button{
   display: flex;
   align-items: center;
   height: auto;
-  width: calc(100% - 300px);
+  width: 100%;
   flex-direction: column;
 }
 
@@ -141,6 +143,8 @@ header button{
   display: flex;
   margin-top: 74px;
   margin-bottom: 52px;
+  justify-content: center;
+  width: 100%;
   gap: 35px;
 }
 
@@ -150,7 +154,7 @@ header button{
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 280px;
+  width: 15%;
   height: 93px;
   border: none;
   border-radius: 11px;
@@ -165,7 +169,7 @@ header button{
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 280px;
+  width: 15%;
   height: 93px;
   border: none;
   border-radius: 11px;
@@ -248,9 +252,10 @@ header button{
 }
 
 .food-delivery{
-  width: calc(100% - 300px);
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
 .delivery-info{
@@ -314,10 +319,11 @@ header button{
 }
 
 .top-rest{
-  width: calc(100% - 300px);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
   gap: 55px;
 }
 
@@ -334,11 +340,16 @@ header button{
 
 .food-cards{
   display: flex;
+  justify-content: center;
   gap: 55px;
+  width: 100%;
 }
 
 .food-card{
-  width: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
   height: 533px;
   border-top-left-radius: 68px;
   border-bottom-right-radius: 68px;
@@ -347,59 +358,71 @@ header button{
 }
 
 .food-card .pizza-1{
-  width: 462px;
+  width: 100%;
   height: 382px;
   background-image: url("assets/img/pizza-1.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .food-card .pizza-2{
-  width: 462px;
+  width: 100%;
   height: 382px;
   background-image: url("assets/img/pizza-2.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .food-card .pizza-3{
-  width: 462px;
+  width: 100%;
   height: 382px;
   background-image: url("assets/img/pizza-3.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .food-card .burger-1{
-  width: 462px;
+  width: 100%;
   height: 382px;
   background-image: url("assets/img/burger-1.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .food-card .burger-2{
-  width: 462px;
+  width: 100%;
   height: 382px;
   background-image: url("assets/img/burger-2.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .food-card .burger-3{
-  width: 462px;
+  width: 100%;
   height: 382px;
   background-image: url("assets/img/burger-3.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .food-card .name-card{
   font-size: 31px;
   color: #363853;
-  margin-left: 26px;
-  margin-top: 28px;
+  width: 90%;
+  margin-top: 25px;
 }
 
 .food-card .time-button{
   display: flex;
-  gap: 39px;
-  margin-left: 26px;
+  justify-content: space-between;  
+  width: 90%;
+  margin-top: 8px;
 }
 
 .food-card .time-button>p{
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 17px; 
 }
 
 .food-card .time-button>p>span{
@@ -420,10 +443,12 @@ header button{
   box-shadow: 0px 29px 53px rgba(255, 104, 56, 0.19);
 }
 
-
 .download-app{
   display: flex;
   margin-top: 211px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .download-app .text-box{
@@ -454,6 +479,7 @@ header button{
   flex-direction: column;
   align-items: center;
   margin-top: 213px;
+  width: 100%;
 }
 
 .reviews .head-text{
@@ -470,6 +496,9 @@ header button{
 .reviews-row{
   display: flex;
   gap: 87px;
+  width: 100%;
+  justify-content: center;
+  padding-left: 40px;
 }
 
 .reviews-column{
@@ -478,7 +507,7 @@ header button{
 }
 
 .reviews-column .comment{
-  width: 732px;
+  width: 90%;
   line-height: 58px;
   letter-spacing: 0.65px;
   font-size: 26px;
@@ -500,7 +529,7 @@ header button{
   transform: scaleX(-1);
   display: flex;
   bottom: 40px;
-  left: 760px;
+  left: 90%;
   width: 80px;
   font-family: "Nunito", sans-serif;
   font-size: 102px;
@@ -510,7 +539,7 @@ header button{
 
 .reviews-column .author{
   display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: space-between;
   padding: 0px 50px;
 }
@@ -604,8 +633,9 @@ footer{
 .top-footer{
   display: flex;
   gap: 126.5px;
-  padding-left: 195.5px;
-  padding-right: 168px;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-bottom: 32px;
   border-bottom: solid 1px #969696;
 }
@@ -659,8 +689,7 @@ footer button{
   gap: 848px;
   padding-top: 33px;
   padding-bottom: 46px;
-  padding-left: 188px;
-  padding-right: 168px;
+  justify-content: center;
 }
 
 .bottom-footer p{
